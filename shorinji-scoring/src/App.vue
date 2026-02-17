@@ -24,8 +24,8 @@
 
     .contenedor {
   display: flex;
-  width: 100%;
-  height: 100vh; /* ocupa toda la pantalla */
+  width: 50%;
+  height: 60vh; /* ocupa toda la pantalla */
   padding: 20px;
   gap: 20%;
 

@@ -11,12 +11,5 @@ import fondo from '@/assets/shorinji-fondo.png'
 </template>
 
 <style scoped>
-.columna {
-  width: 400px;   /* IMPORTANTE: debe tener tamaño */
-  height: 400px;  /* IMPORTANTE: debe tener tamaño */
 
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 </style>
