@@ -1,38 +1,22 @@
 <script setup>
-    import Panel from './components/panel.vue';
-    import fondo from './assets/shorinji-fondo.png'
+import Panel from './components/panel.vue';
 
 </script>
 
 <template>
-     <div class="contenedor">
-    <Panel variante="red" />
-    <Panel variante="blue" />
-  </div>
 
-       
+  <Panel variante="red" />
+  <Panel variante="blue" />
+   
 </template>
 
 
 <style scoped>
-    div {
-        display: flex;
-        width: 100%;
-        padding: 20px;
-        gap: 20%;
-    }
-
-    .contenedor {
+.contenedor {
   display: flex;
-  width: 50%;
-  height: 60vh; /* ocupa toda la pantalla */
+  width: 100%;
   padding: 20px;
-  gap: 20%;
-
-  background-image: url('./assets/shorinji-fondo.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  gap: 20px;
 }
 
 </style>
